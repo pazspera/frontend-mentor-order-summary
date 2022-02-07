@@ -1,0 +1,50 @@
+.order-summary {
+    max-width: 350px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: $veryPaleBlue;
+}
+
+.order-summary__img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.order-summary__title {
+    font-weight: 900;
+    color: $darkBlue;
+    font-weight: 1.5rem;
+    margin: 0;
+}
+
+.order-summary__text {
+    line-height: 1.75;
+    color: $desaturatedBlue;
+    text-align: center;
+}
+
+.order-summary__content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-summary__plan-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: $paleBlue;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.order-summary__icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.order-summary__plan p {
+    margin: 0;
+}
