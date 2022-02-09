@@ -40,6 +40,19 @@ html {
           box-shadow: 0px 35px 36px -18px rgba(56, 41, 224, 0.15);
 }
 
+@media (min-width: 500px) {
+  .order-summary {
+    max-width: 25rem;
+  }
+  .order-summary__plan-container,
+  .order-summary__btn--primary {
+    max-width: 85%;
+  }
+  .order-summary__plan {
+    margin-right: 4.5rem;
+  }
+}
+
 .order-summary__img {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
