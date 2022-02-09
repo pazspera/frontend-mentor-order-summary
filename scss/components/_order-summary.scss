@@ -1,51 +1,114 @@
 .order-summary {
-    max-width: 350px;
-    border: 1px solid black;
-    border-radius: 1rem;
-    background-color: $veryPaleBlue;
+	max-width: 20rem;
+	border-radius: 1rem;
+	background-color: $white;
+    box-shadow: 0px 35px 36px -18px rgba(56,41,224,0.15);
 }
 
 .order-summary__img {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+}
+
+.order-summary__title,
+.order-summary__text {
+	margin: 0;
 }
 
 .order-summary__title {
-    font-weight: 900;
-    color: $darkBlue;
-    font-weight: 1.5rem;
-    margin: 0;
+	font-weight: 900;
+	color: $darkBlue;
+	font-weight: 1.5rem;
 }
 
 .order-summary__text {
-    line-height: 1.75;
-    color: $desaturatedBlue;
-    text-align: center;
-    font-size: 0.9rem;
+	line-height: 1.75;
+	color: $desaturatedBlue;
+	text-align: center;
+	font-size: 0.9rem;
+	max-width: 90%;
+	margin: 0.8rem 0;
 }
 
 .order-summary__content {
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	padding: 1.75rem 1.25rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .order-summary__plan-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    background-color: $paleBlue;
-    padding: 1rem;
-    border-radius: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	background-color: $veryPaleBlue;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin: 1rem 0;
 }
 
 .order-summary__icon {
-    width: 3rem;
-    height: 3rem;
+	width: 3rem;
+	height: 3rem;
+}
+
+.order-summary__plan {
+	margin-right: 2.25rem;
 }
 
 .order-summary__plan p {
-    margin: 0;
+	font-size: 0.8rem;
+}
+
+.order-summary__plan-title {
+	font-weight: 900;
+	margin: 0 0 0.2rem 0;
+}
+
+.order-summary__plan-text {
+	color: $desaturatedBlue;
+	margin: 0;
+}
+
+.order-summary__plan-btn {
+	font-weight: 900;
+	font-size: 0.8rem;
+	color: $brightBlue;
+
+    &:hover {
+        text-decoration: none;
+        color: $hover;
+    }
+}
+
+.order-summary__btn--primary {
+	background-color: $brightBlue;
+	color: $white;
+	width: 100%;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+	border-radius: 0.75rem;
+	box-shadow: 0px 35px 36px -18px rgba(56,41,224,0.15);
+	margin-top: 0.5rem;
+	font-size: 0.85rem;
+	letter-spacing: 0.5px;
+
+    &:hover {
+        background-color: $hover;
+    }
+}
+
+.order-summary__btn--secondary {
+	margin: 1.25rem 0 0 0;
+	text-decoration: none;
+	font-weight: 900;
+	color: $desaturatedBlue;
+	font-size: 0.85rem;
+
+    &:hover {
+        color: $darkBlue;
+    }
 }
