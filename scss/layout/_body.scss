@@ -4,7 +4,7 @@ body {
 
 @media (max-width: 375px) {
     body {
-        background: url(../../images/pattern-background-mobile.svg) no-repeat top center;
+        background: url(../images/pattern-background-mobile.svg) no-repeat top center;
         background-size: contain;
         background-color: $paleBlue;
     }
@@ -12,7 +12,7 @@ body {
 
 @media (min-width: 376px) {
     body {
-        background: url(../../images/pattern-background-desktop.svg) no-repeat top center;
+        background: url(../images/pattern-background-desktop.svg) no-repeat top center;
         background-size: contain;
         background-color: $paleBlue;
     }
