@@ -81,10 +81,12 @@
 	font-weight: 900;
 	font-size: 0.8rem;
 	color: $brightBlue;
-
+	transition: all 0.3s ease-out;
+	
     &:hover {
-        text-decoration: none;
+		text-decoration: none;
         color: $hover;
+		transition: all 0.3s ease-out;
     }
 }
 
